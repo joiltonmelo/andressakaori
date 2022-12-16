@@ -2,26 +2,25 @@
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
   transition-duration: 0.4s;
   }
 
 
   a:hover {
-  color: #FE008B;
+  color: #931518;
 }
 
 .instagram  {
   height: 18px;
-  margin-left: 30px;
 }
 
 body {
-  background-image: url("../img/bg-hero.webp");
-  background-size: cover;
+  background-image: url("../img/bg-hero2.jpg");
+/*  background-size: cover;*/
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: #000;
+  background-color: #fff;
   overflow: hidden;
 
 }
@@ -34,10 +33,10 @@ h1 {
 	font-family: 'Prompt', sans-serif;
 	font-weight: 400;
 	font-size: 40px;
-	line-height:60px;
+	line-height:46px;
 	margin-bottom: 20px;
   font-weight: bold;
-  color: #fff;
+  color: #000;
 
 }
 
@@ -63,7 +62,7 @@ p {
 	font-size: 18px;
   line-height:22px;
   font-family: "Prompt", sans-serif;
-  color: #fff;
+  color: #000;
 }
 
 
@@ -71,51 +70,28 @@ p {
  
  
   color: #fff;
-  padding: 17px 40px;
+  padding: 17px 50px;
   margin-top: 40px;
   margin-bottom: 47px;
   transition-duration: 0.4s;
-  border-radius:5px;
+  border-radius:32px;
   font-size:18px;
-  background-color: #FE008B;
+  background-color: #931518;
   
    }
 
   .btn:hover  {
  
   color: #ffffff;
-  padding: 17px 40px;
+  padding: 17px 50px;
   margin-bottom: 47px;
-  border-radius:5px;
+  border-radius:32px;
   font-size:18px;
-  background-image: linear-gradient(to left, #FE008B, #4e1665);
+  background-image: linear-gradient(to left, #931518, #840306);
   
   }
 
 
-  .btn-2 {
- 
-  background-color: #141414;
-  color: #ffffff;
-  padding: 17px 40px;
-  margin-bottom: 47px;
-  transition-duration: 0.4s;
-  border-radius:5px;
-  width: 100%;
-  font-size:18px;
-
- }
-
- .btn-2:hover  {
- 
-  color: #000;
-  background-color: #FE008B;
-  padding: 17px 40px;
-  margin-bottom: 47px;
-  border-radius:5px;
-  font-size:18px;
-  
-  }
 
 .text-hero {max-width: 540px;} 
 
@@ -136,14 +112,14 @@ p {
     justify-content: space-between;
 }
 
-.container .text-hero .clients{
+/*.container .text-hero .clients{
   
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
     gap: 40px;
-}
+}*/
 
 .title-clients {
   padding-top: 20px;
@@ -154,7 +130,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-top: 50px;
+    margin-top: 30px;
     gap: 20px;
 
 }
@@ -162,17 +138,29 @@ p {
 .container .text-hero .thumbnail  img {
 
     border-radius: 5px;
+
 }
 
-span {color: #fff;}
+span {color: #000;}
+
+.title-thumb {
+  font-size: 10px;
+}
 
 
 .reptiliano {
  
-  margin-top: 140px;
+  margin-top: 197px;
 }
 
+.thumbnail  img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.4s;
+}
 
+.thumbnail  span {
+ color: #000;
+}
 
 @media screen and (max-width: 820px) {
 
@@ -239,6 +227,17 @@ span {color: #fff;}
 
 .container .text-hero .clients img {
    height: 18px;
+}
+
+h1 {
+  font-family: 'Prompt', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height:36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #000;
+
 }
 
 

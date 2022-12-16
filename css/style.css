@@ -56,8 +56,7 @@ header nav ul li img {
 
 .nav-link {
     text-decoration: none;
-    font-size: 1.15rem;
-    color: #fff;
+    color: #000;
 }
 
 
@@ -76,7 +75,7 @@ header nav ul li img {
 
 header {
     background-color: transparent;
-    color: #fff;
+    color: #000;
     padding-right: 20px;
 }
     .nav-bar {
