@@ -22,7 +22,7 @@ header {
 header nav ul li img {
     display: inherit;
     align-items: center;
-    margin-right: 10px;
+    margin-right: 0px;
     height: 14px;
     overflow: hidden;
 }
@@ -41,7 +41,7 @@ header nav ul li img {
 .nav-list {
     display: flex;
     align-items: center;
-    padding:0 20px;
+    padding:0 0px;
 }
 
 .nav-list ul {
